@@ -1,3 +1,5 @@
+When do you commit and when do you push to a remote repo - a rare situation is when you have several commits locally and one of the commits is "not accepted" by the remote repo and its in the middle of many local commits, now you are unable yo push because that one commit is not accepted - after hours of git reset, rebase, drop, --hard --soft and many more attempts nothing worked. Lesson : we can always delete the .git folder, rename, git clone again, and then copy files over and do a git push -force. But - plan out why and when you commit, and push
+
 
 # **SCM Fundamentals**
 One of the basics of SCM is to figure out starting out - mono repo or multiple repos. Before we get into that discussion, let's get basics of git out of the way.
